@@ -49026,9 +49026,9 @@ window.Echo.channel('test').listen('Test', function (e) {
 
   if ($('#body-chat').attr('data-chat') == e.request.chat_id) {
     if (e.request.user_id != $('#user_id').val()) {
-      $('#all-message').append("\n                <div class=\"row\"> \n                    <div style=\"float: left; width: 100%;\"> \n                        <p class=\"mess\" style=\"background-color: lightgray; padding: 12px;text-align: left; width: auto;max-width: 233px; float: left;border-radius: 12px;\">\n                            " + e.request.content + "\n                        </p>\n                    </div>\n                </div>\n            ");
+      $('#all-message').append("\n                <div class=\"row\"> \n                    <div style=\"float: left; width: 100%;\"> \n                        <p class=\"mess\" style=\"background-color: lightgray; padding: 12px;text-align: left; margin: 5px 0px;width: auto;float: left;border-radius: 12px;\">\n                            " + e.request.content + "\n                        </p>\n                    </div>\n                </div>\n            ");
     } else {
-      $('#all-message').append("\n                <div class=\"row\"> \n                    <div style=\"float: right; width: 100%;\"> \n                        <p class=\"mess\" style=\"background-color: lightblue; padding: 12px;text-align: right; width: auto;max-width: 233px; float: right;border-radius: 12px;\">\n                            " + e.request.content + "\n                        </p>\n                    </div>\n                </div>\n            ");
+      $('#all-message').append("\n                <div class=\"row\"> \n                    <div style=\"float: right; width: 100%;\"> \n                        <p class=\"mess\" style=\"background-color: lightblue; padding: 12px;text-align: right; margin: 5px 0px;width: auto;float: right;border-radius: 12px;\">\n                            " + e.request.content + "\n                        </p>\n                    </div>\n                </div>\n            ");
     }
   }
 
@@ -49106,8 +49106,8 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\my-project\webcam.lar\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\my-project\webcam.lar\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\my-project\web_v2\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\my-project\web_v2\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ }),

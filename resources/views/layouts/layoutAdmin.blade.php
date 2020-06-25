@@ -32,6 +32,10 @@
     @yield('head')
 
     <style>
+
+        ::-webkit-scrollbar {
+		    width: 0px;
+		}
         img {
             object-fit: cover;
         }
@@ -486,6 +490,8 @@
                 </div>
             </div>
         </div>
+
+        @include('commons.chat')
         <!-- offset area end -->
         <!-- jquery latest version -->
         <script src="{{ asset('css/css-admin/assets/js/vendor/jquery-2.2.4.min.js') }}"></script>
@@ -505,7 +511,9 @@
         <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
         @yield('footer')
+        @include('commons.chat_processing')
     </body>
 
     </html>

@@ -26,7 +26,7 @@ window.Echo.channel('test')
             $('#all-message').append(`
                 <div class="row"> 
                     <div style="float: left; width: 100%;"> 
-                        <p class="mess" style="background-color: lightgray; padding: 12px;text-align: left; width: auto;max-width: 233px; float: left;border-radius: 12px;">
+                        <p class="mess" style="background-color: lightgray; padding: 12px;text-align: left; margin: 5px 0px;width: auto;float: left;border-radius: 12px;">
                             `+e.request.content+`
                         </p>
                     </div>
@@ -36,7 +36,7 @@ window.Echo.channel('test')
             $('#all-message').append(`
                 <div class="row"> 
                     <div style="float: right; width: 100%;"> 
-                        <p class="mess" style="background-color: lightblue; padding: 12px;text-align: right; width: auto;max-width: 233px; float: right;border-radius: 12px;">
+                        <p class="mess" style="background-color: lightblue; padding: 12px;text-align: right; margin: 5px 0px;width: auto;float: right;border-radius: 12px;">
                             `+e.request.content+`
                         </p>
                     </div>
