@@ -18,9 +18,9 @@
                 <input type="hidden" name="user_id" id="user_id" @if(Auth::check()) value="{{ Auth::user()->id }}" @endif>
                 <input type="hidden" name="stall_manager_id" id="partner_id">
                 <div class="col-md-9 col-sm-9" style="padding: 0px;">
-                    <textarea cols="30" rows="3" id="content" disabled="disabled">
+                    <input type="text" style="height: 73px; width:100%" id="content" disabled="disabled">
 
-                    </textarea>
+                    </input>
                 </div>
                 <div class="col-md-2 col-sm-2">
                     <button type="submit" class="btn btn-info" id="testSubmit">
